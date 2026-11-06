@@ -51,7 +51,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/pain-hash/dsh-cloud-sync",
-            "commit": "0000000000000000000000000000000000000000"
+            "commit": "a032720ed32eb208e40fe168eb88449fc1524994"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
