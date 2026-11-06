@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "title": {
+    "en": "pain-hash DSH plugins",
+    "zh": "pain-hash 的 DSH 插件"
+  },
+  "description": {
+    "en": "Plugins for DeepSeek Harness by pain-hash.",
+    "zh": "pain-hash 为 DeepSeek Harness 写的插件。"
+  },
+  "metadata": {
+    "categories": {
+      "sync": {
+        "title": {
+          "en": "Sync",
+          "zh": "同步"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@pain-hash/dsh-cloud-sync",
+      "title": {
+        "en": "Conversation & workspace sync",
+        "zh": "会话与工作区同步"
+      },
+      "description": {
+        "en": "Sync conversations and workspace files across computers through a cloud-synced folder.",
+        "zh": "通过云盘同步文件夹，在多台电脑之间同步会话和工作区文件。"
+      },
+      "icon": "./icon.svg",
+      "author": "pain-hash",
+      "homepage": "https://github.com/pain-hash/dsh-cloud-sync#readme",
+      "repository": {
+        "url": "https://github.com/pain-hash/dsh-cloud-sync"
+      },
+      "metadata": {
+        "category": "sync",
+        "keywords": [
+          "sync",
+          "conversation",
+          "workspace",
+          "cloud"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793952655,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/pain-hash/dsh-cloud-sync",
+            "commit": "0000000000000000000000000000000000000000"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}

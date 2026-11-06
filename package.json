@@ -1,0 +1,61 @@
+{
+  "name": "@pain-hash/dsh-cloud-sync",
+  "version": "1.0.0",
+  "description": "Sync DeepSeek Harness conversations and workspace files across computers through a cloud-synced folder.",
+  "license": "MIT",
+  "author": "pain-hash",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pain-hash/dsh-cloud-sync.git"
+  },
+  "homepage": "https://github.com/pain-hash/dsh-cloud-sync#readme",
+  "bugs": {
+    "url": "https://github.com/pain-hash/dsh-cloud-sync/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "sync",
+    "conversation",
+    "workspace",
+    "cloud"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "engine.js",
+    "sessions.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Conversation and workspace sync">
+  <rect width="64" height="64" rx="14" fill="#247bbf"/>
+  <path d="M18 22c0-3.3 2.7-6 6-6h14c3.3 0 6 2.7 6 6v9c0 3.3-2.7 6-6 6h-8l-7 6v-6h-1c-3.3 0-6-2.7-6-6v-9Z" fill="#fff" opacity=".95"/>
+  <path d="M40 38.5a7.5 7.5 0 1 1-2.2 5.3" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M36.2 47.6 40 43.8l3.8 3.8" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="27" cy="27" r="2.4" fill="#247bbf"/>
+  <circle cx="34" cy="27" r="2.4" fill="#247bbf"/>
+</svg>
